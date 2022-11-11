@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "noEmit": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "target": "ESNext",
+    "module": "CommonJS",
+    "lib": ["ESNext", "DOM", "dom.iterable"],
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "types": [
+      "vue",
+      "node",
+      "vite/client",
+      "unplugin-vue-macros/macros-global"
+    ],
+    "baseUrl": "."
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  }
+}
