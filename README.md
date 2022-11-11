@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+# Vue Macros + Storybook
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+> **Note**: It's really bad for the support of Storybook with Vue and ESM.
+>
+> There are lots of known bugs in [storybookjs/builder-vite](https://github.com/storybookjs/builder-vite),
+>
+> so no plan to support it officially and I don't promise it will work in the future.
+>
+> I strongly recommend using [Histoire](https://histoire.dev/) instead.
